@@ -1,0 +1,110 @@
+html {
+  font-size: 18px;
+  font-family: 'Unica One', cursive;
+}
+
+body {
+  font-family: 'Unica One', cursive;
+  background-color: dimgray;
+  background-image: url('./img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+#bg-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  margin: 0;
+  height: 100vh;
+  position: static;
+}
+
+nav {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.prof {
+  margin: auto 1rem;
+  padding: 0.2rem 1.2rem;
+  align-items: center;
+  align-content: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+  border: solid 0.5px white;
+  border-radius: 0.3rem;
+  transition: all 300ms;
+}
+
+.prof:hover {
+  background-color: rgba(156, 156, 156, 0.6);
+  color: white;
+  border: solid 0.5px rgba(156, 156, 156, 0.6);
+}
+
+#title {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 3rem;
+  margin: 0 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+div {
+  opacity: 0.9;
+}
+
+.content {
+  z-index: 2;
+  position: relative;
+  top: 2rem;
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  padding: 1.5rem;
+  border: solid 5px whitesmoke;
+  border-radius: 1.5rem;
+  opacity: 0.9;
+}
+
+.wrap {
+  overflow: hidden;
+  position: relative;
+  height: 800px;
+}
+
+.bg {
+  opacity: 0.2;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 70%;
+  height: auto;
+}
+
+audio {
+  width: 450px;
+}
+
+audio::-webkit-media-controls-enclosure {
+    /*border-radius: 5px;*/
+    background-color: white;
+}
+
+audio::-webkit-media-controls-mute-button, 
+audio::-webkit-media-controls-play-button, 
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  background-color: black;
+}
+
