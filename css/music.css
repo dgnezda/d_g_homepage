@@ -210,5 +210,9 @@ p {
 }
 
 @media only screen and (max-width: 480px) {
-
+  .album {
+    width: 300px;
+    height: 420px;
+  }
+}
 }
