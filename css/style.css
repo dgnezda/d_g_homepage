@@ -7,7 +7,7 @@ html {
 body {
   font-family: 'Unica One', cursive;
   background-color: dimgray;
-  background-image: url('./img/bg.jpg');
+  background-image: url('../img/bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -175,7 +175,7 @@ div {
   border-radius: 3px;
   background-color: black;
   color: white;
-  max-width: 24px;
+  max-width: 30px;
   max-height: 24px;
   padding: 7px 5px 5px 5px;
   margin-left: 4px;
