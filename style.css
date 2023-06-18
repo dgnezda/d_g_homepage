@@ -26,20 +26,26 @@ body {
 nav {
   height: 68px;
   display: flex;
+  flex-wrap: wrap;
   justify-items: center;
   justify-content: center;
+}
+
+h1 {
+  font-weight: 400;
 }
 
 #logo {
   border-radius: 0.3rem;
   opacity: 0.9;
+  height: 68px;
 }
 
 #logo:hover {
   opacity: 1;
 }
 
-.prof {
+.button {
   margin: auto 1rem;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 0.3rem 1.2rem 0.2rem 1.2rem;
@@ -54,7 +60,7 @@ nav {
   transition: all 300ms;
 }
 
-.prof:hover {
+.button:hover {
   background-color: rgba(156, 156, 156, 0.6);
   color: white;
   border: solid 0.5px rgba(156, 156, 156, 0.6);
@@ -157,7 +163,7 @@ div {
   position: relative;
   font-family: Arial;
   font-size: 9px;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: black;
   color: white;
   max-width: 24px;
@@ -184,3 +190,66 @@ audio::-webkit-media-controls-time-remaining-display {
   background-color: black;
 }
 
+@media only screen and (max-width: 1400px) {
+  nav {
+    height: 40px;
+    width: 84%;
+    margin: 0 8%;
+    justify-content: space-evenly;
+    justify-items: center;
+  }
+  
+  .content {
+    width: 80%;
+    top: 1rem;
+  }
+
+  #title {
+    font-size: 2rem;
+    margin: 0 0;
+  }
+
+  #logo {
+    margin-top: 2px;
+    height: 2.3rem;
+  }
+
+  .button {
+    font-size: 1.3rem;
+    margin: 5px 0 0 0;
+  }
+}
+
+
+@media only screen and (max-width: 1060px) {
+  nav {
+    width: 100%;
+    margin: 0 0;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  #logo {
+    display: none;
+  }
+
+  .content p {
+    font-size: 0.9rem;
+  }
+
+  .button {
+    padding: 3px 6px 2px 6px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #title {
+    width: 100%;
+  }
+
+  .content {
+    top: 3rem;
+    padding-top: 0.6rem;
+  }
+}
