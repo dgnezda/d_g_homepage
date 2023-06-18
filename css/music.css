@@ -202,17 +202,8 @@ p {
   .content:hover {
     border-radius: 0;
   }
-
-  .album {
-    width: 350px;
-    height: 470px;
-  }
 }
 
 @media only screen and (max-width: 480px) {
-  .album {
-    width: 250px; 
-    height: 392px;
-  }
-}
+
 }
