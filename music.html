@@ -4,29 +4,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Unica+One&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Unica+One&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="music.css">
 </head>
 <body>
-  <p>:: Page under construction ::</p> <!-- INSERT JAVASCRIPT TIME APP? -->
-  <div class='content'>
-    <h1 class='title'>DoMen GNeZdA</h1>
-    <h2>Musician / Front-End Developer</h2>
-    <p>Email: <a href='mailto:domen.gnezda@pm.me'>domen.gnezda@pm.me</a></p>   
-    <p>Phone: + 386 (0)40 835 023</p>
-    <br>
-    <p>Python / django, pandas, sklearn, tensor-flow</p>
-    <p>HTML, CSS, JavaScript, SQL</p>
-    <br>
-    <br>
-    <audio controls>
-      <source src="./audio/clip1.mp3" type="audio/mp3">
-    </audio>
-    <br>
-    <audio controls>
-      <source src='./audio/clip.mp3' type='audio/mp3'>
-    </audio>
-  </div>
+  <div id="bg-overlay">
+    <nav>
+      <a href="./index.html"><img id="logo" src="./img/logo.png" alt="Domen Gnezda - Logo"/></a>
+      <h1 id='title'><span id='d'>D</span>oMen G<span id="n">N</span>eZdA</h1>
+      <a class="button" href="#">Music</a>   
+      <a class="button" href="./front-end.html">Programming</a>
+      <a class="button" href="./contact.html">Contact</a>
+    </nav>
+    <section class='content'>
+      <iframe class="album" src="https://bandcamp.com/EmbeddedPlayer/album=2269668400/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://domengnezda.bandcamp.com/album/an-infinite-domain-of-water">An Infinite Domain of Water by Domen Gnezda</a></iframe>
+      <iframe class="album" src="https://bandcamp.com/EmbeddedPlayer/album=2040246611/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://domengnezda.bandcamp.com/album/misnomer-iv">misnomer IV. by Domen Gnezda</a></iframe>
+      <iframe class="album" src="https://bandcamp.com/EmbeddedPlayer/album=1552307507/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://domengnezda.bandcamp.com/album/misnomer-ii">misnomer II. by Domen Gnezda</a></iframe>
+      <iframe class="album" src="https://bandcamp.com/EmbeddedPlayer/album=446476820/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://domengnezda.bandcamp.com/album/misnomer-v">misnomer V. by Domen Gnezda</a></iframe>
+      <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/floating-compression/1668875071"></iframe>
+      <img id="logo-end" src="./img/logo.png" alt="Domen Gnezda - Logo"/>
+    </section>
+  </div> 
+  <script src="./script.js"></script>
 </body>
 </html>
