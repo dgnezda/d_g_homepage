@@ -3,9 +3,9 @@ html {
   font-family: 'Major Mono Display', monospace;
   /*font-family: 'Unica One', monospace;*/
 }
- 
+
 body {
-  font-family: 'Unica One', cursive;
+  font-family: 'Unica One', monospace;
   background-color: rgb(0, 0, 0);
   background-image: url('../img/bg.jpg');
   background-size: cover;

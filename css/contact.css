@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: 'Unica One', cursive;
+  font-family: 'Unica One', monospace;
   background-color: rgb(0, 0, 0);
   background-image: url('../img/bg.jpg');
   background-size: cover;
@@ -262,7 +262,7 @@ audio::-webkit-media-controls-time-remaining-display {
 
   #logo-end {
     display: block;
-    opacity: 0.3;
+    opacity: 1;
     height: 50px;
     margin: 10px auto;
   }
@@ -278,6 +278,15 @@ audio::-webkit-media-controls-time-remaining-display {
   .button {
     padding: 3px 6px 2px 6px;
   }
+
+  .content {
+    border-radius: 0;
+    transition: none;
+  }
+
+  .content:hover {
+    border-radius: 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -288,8 +297,6 @@ audio::-webkit-media-controls-time-remaining-display {
   .content {
     top: 3rem;
     padding-top: 0.6rem;
-    transition: none;
-    border-radius: 0;
   }
 
   .content p {
@@ -301,11 +308,7 @@ audio::-webkit-media-controls-time-remaining-display {
     margin: 20px 0;
     padding-left: 1rem;
   }
-
-  .content:hover {
-    border-radius: 0;
-  }
-  
+ 
   audio {
     margin-top: 5px;
     width: 80%;
