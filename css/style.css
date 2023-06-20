@@ -258,7 +258,7 @@ audio::-webkit-media-controls-time-remaining-display {
 
   #logo-end {
     display: block;
-    opacity: 0.3;
+    opacity: 1;
     height: 50px;
     margin: 10px auto;
   }
