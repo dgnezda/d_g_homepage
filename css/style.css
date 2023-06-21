@@ -139,6 +139,10 @@ div {
   font-size: 0.85rem;
 }
 
+#projects a:hover {
+  font-weight: bold;
+}
+
 .wrap {
   overflow: hidden;
   position: relative;
@@ -196,7 +200,7 @@ audio::-webkit-media-controls-mute-button,
 audio::-webkit-media-controls-play-button, 
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
-  background-color: black;
+  background-color: white;
 }
 
 #logo-end {
